@@ -1,6 +1,5 @@
-document.addEventListener('DOMContentLoaded', function(){
+ document.addEventListener('DOMContentLoaded', function(){
 
-    //Seleccionar elementos
     const btnEncriptar = document.querySelector('#btn-encriptar');
     const btnDesencriptar = document.querySelector('#btn-desencriptar');
     const btnCopiar = document.querySelector('#btn-copiar');
@@ -19,7 +18,7 @@ document.addEventListener('DOMContentLoaded', function(){
        .replace(/a/gi, "ai")
        .replace(/o/gi, "ober")
        .replace(/u/gi, "ufat");
-       document.querySelector("#encriptado").value = inputTexto; 
+       document.querySelector("#encriptado").value=inputTexto;
        
     }
 
@@ -31,7 +30,7 @@ document.addEventListener('DOMContentLoaded', function(){
        .replace(/ai/gi, "a")
        .replace(/ober/gi, "o")
        .replace(/ufat/gi, "u");
-       document.querySelector("#encriptado").value = inputTexto;
+       document.querySelector("#encriptado").value=inputTexto;
      
     }
 
@@ -41,9 +40,12 @@ document.addEventListener('DOMContentLoaded', function(){
            alert('No se ha copiado nada');
        }else{
            navigator.clipboard.writeText(texto);
-           alert('Se ha copiado al portapapeles');
+           alert('Se ha copiado el texto');
        }
       
    }
 
 });
+
+
+

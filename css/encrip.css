@@ -21,7 +21,7 @@ body {
 }
 
 header {
-	background:#07315b;
+	background:#04315e;
 	width:100%;
 	padding:20px;
 
@@ -61,7 +61,7 @@ header nav {
 	align-items:center;
 }
 
-header nav a {
+header nav a  {
 	background:#c0392b;
 	color:#fff;
 	text-align: center;
